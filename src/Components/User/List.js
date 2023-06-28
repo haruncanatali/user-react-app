@@ -26,7 +26,7 @@ function UserList(){
                                 <Image style={{width:500,height:300}} src={user.profilePicture} alt="Image Description" fluid />
                                 <Card.Title className="text-center mt-2">{user.fullName}</Card.Title>
                                 <div className="d-flex justify-content-center">
-                                    <Link to={`/user-detail/${user.id}`} className="btn btn-primary mt-2">Detay</Link>
+                                    <Link to={`/user-detail/${user.id}`} className="btn btn-info mt-2">Detay</Link>
                                 </div>
                             </Card.Body>
                             </Card>

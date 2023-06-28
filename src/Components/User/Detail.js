@@ -28,7 +28,7 @@ function UserDetail(){
                         <p>Id : {user.id}</p>
                         <p>Kullanıcı Adı : {user.username}</p>
                         <p>E-Posta : {user.email}</p>
-                        <p>Bio : {user.bio}</p>
+                        <p>BIO : {user.bio}</p>
                     </div>
                 </Card.Body>
             </Card>

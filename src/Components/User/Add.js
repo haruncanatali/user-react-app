@@ -20,7 +20,7 @@ function UserAdd(){
     const handleSubmit = async (values, { setSubmitting }) => {
         try {
           await axios.post(url, values);
-          alert('Ekleme başarılı oldu');
+          alert('Ekleme başarılı oldu!');
         } catch (error) {
           console.error(error);
         }
